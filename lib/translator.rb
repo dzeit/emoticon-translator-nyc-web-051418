@@ -1,15 +1,15 @@
 require "yaml"
 
-YAML.load(emoticons)
+YAML.load
 
-def load_library(emoticons)
+def load_library
   
 end
 
-def get_japanese_emoticon(emoticons)
+def get_japanese_emoticon
   
 end
 
-def get_english_meaning(emoticons)
+def get_english_meaning
   
 end
