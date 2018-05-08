@@ -7,7 +7,7 @@ def load_library(emoticons)
   new_hash = {"get_meaning" => {}, "get_emoticon" => {}}
   
   emo.each do |key, value|
-    new_hash["get_emoticon"]
+    new_hash["get_emoticon"][key] = value 
     #binding.pry 
   end 
   new_hash
