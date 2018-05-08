@@ -8,7 +8,7 @@ def load_library(emoticons)
   emo.each do |eng_translation, emoticons_array|
     eng_emoticon = emoticons_array[0]
     jap_emoticon = emoticons_array[1]
-    binding.pry 
+    
     new_hash["get_emoticon"][eng_emoticon] = jap_emoticon 
       
   end 
