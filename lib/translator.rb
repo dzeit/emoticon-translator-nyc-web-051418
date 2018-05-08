@@ -17,7 +17,7 @@ end
 def get_japanese_emoticon(emo, emoticon)
   load_library(emo)
   load_library(emo)["get_emoticon"][emoticon]
-  binding.pry 
+  #binding.pry 
 end
 
 def get_english_meaning
