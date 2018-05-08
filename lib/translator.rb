@@ -25,6 +25,12 @@ end
   
   
 
-def get_english_meaning
+def get_english_meaning(emo, emoticons)
+  library = load_library(emo)
+  if library["get_meaning"][emoticons]
+    library["get_meaning"][emoticons]
+  else 
+    "Sorry, that emoticon was not found"
+  end 
   
 end
