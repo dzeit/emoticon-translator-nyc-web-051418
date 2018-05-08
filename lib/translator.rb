@@ -4,7 +4,7 @@ require 'pry'
 
 def load_library(emoticons)
   emo = YAML.load_file(emoticons)
-  new_hash = {"get_meaning" => {}, "get_emoticon" => {"English" => [],  "Japanese" => []}}
+  new_hash = {"get_meaning" => {}, "get_emoticon" => {}}
   emo.each do |eng_translation, emoticons_array|
     eng_emoticon = emoticons_array[0]
     jap_emoticon = emoticons_array[1]
