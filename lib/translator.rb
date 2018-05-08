@@ -16,7 +16,7 @@ end
 
 def get_japanese_emoticon(emo, emoticons)
   load_library(emo)
-  
+  jap_emoticon = eng_emoticon
   #binding.pry 
 end
 
