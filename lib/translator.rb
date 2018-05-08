@@ -10,7 +10,6 @@ def load_library(emoticons)
     jap_emoticon = emoticons_array[1]
     new_hash["get_emoticon"][eng_emoticon] = jap_emoticon
     new_hash["get_meaning"][jap_emoticon] = eng_translation
-     #binding.pry  
    end 
   new_hash
 end
