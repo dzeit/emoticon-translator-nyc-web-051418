@@ -6,6 +6,7 @@ def load_library(emoticons)
   emo = YAML.load_file(emoticons)
   new_hash = {"get_meaning" => {}, "get_emoticon" => {}}
   emo.each do |key, value|
+    key.merge! 
     binding.pry 
   end 
 end
