@@ -13,7 +13,7 @@ def load_library(emoticons)
       new_hash["get_meaning"][emoticon] = key 
     end  
   end 
-  
+  binding.pry
   new_hash
 end
 
