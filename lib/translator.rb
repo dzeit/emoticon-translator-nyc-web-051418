@@ -20,7 +20,7 @@ def get_japanese_emoticon(emo, emoticons)
   # sorry_message = "Sorry, that emoticon was not found"
   # return sorry_message if library["get_emoticon"][emoticons] != emoticons
 end 
-  #binding.pry 
+  
   
 
 def get_english_meaning
