@@ -16,7 +16,7 @@ end
 
 def get_japanese_emoticon(emo, emoticons)
   library = load_library(emo)
-  library(emo)["get_emoticon"][emoticons]
+  library["get_emoticon"][emoticons]
   #binding.pry 
 end
 
