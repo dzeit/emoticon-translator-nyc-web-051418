@@ -17,6 +17,8 @@ end
 def get_japanese_emoticon(emo, emoticons)
   library = load_library(emo)
   library["get_emoticon"][emoticons]
+  sorry_message = 
+  return 
   #binding.pry 
 end
 
