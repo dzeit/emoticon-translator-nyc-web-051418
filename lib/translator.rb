@@ -14,9 +14,9 @@ def load_library(emoticons)
   new_hash
 end
 
-def get_japanese_emoticon(emo, emoticon)
+def get_japanese_emoticon(emo, emoticons)
   library = load_library(emo)
-  library(emo)["get_emoticon"][emoticon]
+  library(emo)["get_emoticon"][emoticons]
   #binding.pry 
 end
 
