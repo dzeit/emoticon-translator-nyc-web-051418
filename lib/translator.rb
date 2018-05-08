@@ -11,7 +11,7 @@ def load_library(emoticons)
     binding.pry
     value.each do |emoticon|
     
-    new_hash["get_meaning"][value]
+      new_hash["get_meaning"][emoticon] = 
     end  
   end 
   new_hash
